@@ -3,43 +3,43 @@
     color: #000000;
     width: 100%;
     height: 700px;
-  }
-  
-  body {
+}
+
+body {
     font-family: "Poppins", sans-serif;
-  }
-  
-  .profile-container {
+}
+
+.profile-container {
     max-width: 800px;
     margin: auto;
     margin-left: -1s00px;
     padding: 20px;
     color: white;
     border-radius: 10px;
-  }
-  
-  .profile-header {
+}
+
+.profile-header {
     display: flex;
     justify-content: flex-start; /* Gambar di kiri, teks di tengah, tombol di kanan */
     align-items: center;
     margin-top: -400px;
     margin-left: -10px;
-  }
-  
-  .profile-picture {
+}
+
+.profile-picture {
     width: 80px;
     height: 80px;
     border-radius: 50%;
     object-fit: cover;
-  }
-  
-  .profile-info {
+}
+
+.profile-info {
     margin-left: 20px; /* Jarak antara gambar dan teks */
     text-align: left;
     flex: 1; /* Mengisi ruang tengah */
-  }
-  
-  .edit-button {
+}
+
+.edit-button {
     background: #ffff70;
     color: #000;
     border: none;
@@ -47,68 +47,69 @@
     border-radius: 3px;
     cursor: pointer;
     margin-left: -600px;
-  }
-  
-  .edit-button:hover {
+}
+
+.edit-button:hover {
     background: #ffe600;
-  }
-  
-  .profile-form {
+}
+
+.profile-form {
     display: grid;
     grid-template-columns: 1fr; /* Satu kolom */
     gap: 20px;
     justify-items: start; /* Geser semua elemen ke kiri */
-  }
-  
-  .form-group {
+}
+
+.form-group {
     display: relative;
     flex-direction: column;
     width: 100%; /* Pastikan elemen tetap responsif */
     bottom: 600px;
-  }
-  
-  .form-group label {
+}
+
+.form-group label {
     color: #6f6f6f;
     font-size: 16px;
     margin-bottom: 5px;
-  }
-  /* Form Group: Full Name */
+}
+
+/* Form Group: Full Name */
 .form-group-fullname {
     margin-top: 200px;
     margin-left: -400px;
-  }
-  
-  /* Form Group: Nick Name */
-  .form-group-nickname {
+}
+
+/* Form Group: Nick Name */
+.form-group-nickname {
     margin-top: 0px;
     margin-left: -400px;
-  }
-  
-  /* Form Group: Gender */
-  .form-group-gender {
+}
+
+/* Form Group: Gender */
+.form-group-gender {
     margin-top: 0px;
     margin-left: -400px;
-  }
-  
-  /* Form Group: Country */
-  .form-group-country {
+}
+
+/* Form Group: Country */
+.form-group-country {
     margin-top: 0px;
     margin-left: -400px;
-  }
-  
-  /* Form Group: Email */
-  .form-group-email {
+}
+
+/* Form Group: Email */
+.form-group-email {
     margin-top: 0px;
     margin-left: -400px;
-  }
-  
-  /* Form Group: Interests */
-  .form-group-interests {
+}
+
+/* Form Group: Interests */
+.form-group-interests {
     margin-top: -390px;
     margin-left: 100px;
-  }
-  
-  input, select {
+}
+
+input, select {
     padding: 10px;
     border: 2px solid #ccc;
     border-radius: 8px;
@@ -116,38 +117,43 @@
     color: #000;
     width: 100%; /* Isi lebar penuh elemen */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  input:focus, select:focus {
+}
+
+input:focus, select:focus {
     outline: none;
     border-color: #66afe9;
     box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
-  }
-  
-  
-  .interests-container {
+}
+
+.interests-container {
     background: #ffffff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-left: 0px;
-  }
-  
-  .interests {
+}
+
+.interests {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-  }
-  
-  .interest-item {
+}
+
+.interest-item {
     background: #f7f8d0;
     color: #000;
     padding: 10px 15px;
     border-radius: 20px;
     font-size: 14px;
-  }
-  
-  .interest-input {
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.interest-item:hover {
+    background: #ffe600;  /* Ganti warna latar belakang saat hover */
+    transform: scale(1.1);  /* Membesarkan sedikit elemen saat hover */
+}
+
+.interest-input {
     margin-top: 15px;
     padding: 10px;
     border-radius: 5px;
@@ -155,7 +161,4 @@
     color: #000;
     border: 2px solid #ccc;
     width: 100%;
-  }
-  
-
-  
+}
