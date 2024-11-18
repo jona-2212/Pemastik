@@ -1,0 +1,67 @@
+.navbar {
+    background-color: #f4ffa3; /* Warna background */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 0px; /* Menjaga jarak antara 'ONTENQ' dan 'K' */
+    transform: translateX(50px);
+}
+
+.ontenq {
+    color: black;
+    font-size: 100px;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+}
+
+.k {
+    color: black;
+    font-size: 50px;
+    font-family: "Sloop", serif;
+    font-weight: 400;
+}
+
+/* Menyusun menu di kanan */
+.menu {
+    display: flex;
+    gap: 70px; /* Jarak antar menu */
+    justify-content: flex-end; /* Menjauhkan menu ke kanan */
+    flex-grow: 1; /* Membuat area menu bisa mengisi sisa ruang */
+}
+
+.menu a {
+    font-size: 30px;
+    color: black;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline; /* Teks bergaris saat hover */
+}
+
+.profile-icon {
+    width: 30px; /* Sesuaikan ukuran gambar */
+    height: 30px;
+    border-radius: 50%;
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

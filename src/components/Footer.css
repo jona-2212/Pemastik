@@ -1,0 +1,53 @@
+.footer-container {
+    position: relative;
+    background-color: #f9ffa8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Ganti menjadi flex-start agar konten berada di atas */
+    text-align: center;
+    height: 350px; /* Menurunkan tinggi footer untuk lebih kompak */
+    overflow: hidden;
+  }
+  
+  .footer-content {
+    z-index: 2;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-title {
+    font-family: "Instrument Serif", serif;
+    font-size: 52.91px;
+    font-weight: 400;
+    color: black;
+    margin-top: 10px; /* Menghilangkan jarak atas untuk mendekatkan dengan bagian atas footer */
+  }
+  
+  .footer-k {
+    font-family: "Sloop", cursive;
+    font-size: 105.83px;
+  }
+  
+  .footer-tagline {
+    font-family: "Instrument Serif", serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    max-width: 350px;
+    word-wrap: break-word;
+    margin-top: -20px; /* Mengurangi jarak agar lebih dekat dengan KONTENQ */
+  }
+  
+  .footer-container img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+  }
+  

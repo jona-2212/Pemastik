@@ -1,0 +1,662 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:wght@400;700&family=Sloop+Script&display=swap');
+
+@font-face {
+  font-family: 'Sloop';
+  src: url('./fonts/sloop.woff2') format('woff2'),
+       url('./fonts/sloop.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.gambar_navbar {
+  background-image: url('Navbar.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 842px;
+  display: grid;
+  place-items: center;
+  color: white;
+  text-align: center;
+}
+
+.gambar_contain {
+  color: white;
+  font-size: 100px;
+  font-family: 'Instrument Serif', serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  transform: translateY(-30px);
+}
+
+.spesial_font {
+  color: white;
+  font-size: 161.11px;
+  font-family: 'Sloop Script', serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  transform: translateY(-30px);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; 
+  }
+  100% {
+    opacity: 1; 
+  }
+}
+
+.fade-in {
+  animation: fadeIn 2s ease-in-out; 
+}
+
+.gambar_contain1 {
+  color: white;
+  font-size: 30px;
+  font-family: 'Instrument Serif';
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.gambar_contain2 {
+  color: black;
+  font-size: 20px;
+  font-family: 'Instrument Serif';
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.input-wrapper {
+  position: relative;
+  width: 820px; 
+  margin-left: auto; /* Geser ke kanan */
+  margin-right: 20px; /* Tambahkan jarak ke kanan (opsional) */
+}
+
+.search-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-image: url('search.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer; 
+}
+
+.search-input4 {
+  padding: 10px 30px;
+  padding-left: 50px; 
+  font-size: 16px;
+  width: 100%; 
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.search-input4:focus {
+  border-color: #5f6368;
+}
+
+.middle {
+  background-image: url('contain.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 1254px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  margin-top: -120px;
+}
+
+.contain_tulisan {
+  color: #F4FFA3;
+  font-size: 80.56px;
+  font-family: 'Instrument Serif', serif;
+  font-weight: 400;
+  word-wrap: break-word;
+
+}
+
+.contain_tulisan1 {
+  color: #F4FFA3;
+  font-size: 161.11px;
+  font-family: 'Sloop Script', serif;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.contain_gambar1 {
+  background-image: url('contain_gambar1.png');
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 300px;
+  display: grid;
+  place-items: center;
+  margin-top: -300px;
+}
+
+.contain_gambar2 {
+  background-image: url('contain_gambar.png');
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 300px;
+  display: grid;
+  place-items: center;
+  margin-top: -300px;
+  margin-left: 200px;
+
+}
+
+.contain_gambar3 {
+  background-image: url('contain_gambar2.png');
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 300px;
+  display: grid;
+  place-items: center;
+  margin-top: -300px;
+  margin-right: 200px;
+}
+
+.middle-content {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .middle-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .contain_gambar1, .contain_gambar2, .contain_gambar3 {
+    width: 250px;
+    height: 300px;
+  }
+}
+  .tulisan2{
+  color: white;
+  font-size: 30px;
+  font-family: Instrument Serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-bottom: -300px;
+  }
+  .tulisan1{
+  color: white;
+  font-size: 30px;
+  font-family: Instrument Serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-bottom: -300px;
+  }
+  .tulisan3{
+  color: white;
+  font-size: 30px;
+  font-family: Instrument Serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-bottom: -260px;
+  }
+  .see-more-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 15px 60px;
+    font-size: 25px;
+    font-family: 'Instrument Serif', serif;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 100px;
+    transition: background-color 0.3s, color 0.3s;
+    backdrop-filter: blur(4px);
+  }
+  
+  .see-more-btn .arrow {
+    margin-right: 10px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .see-more-btn:hover {
+    background-color: white;
+    color: black;
+  }
+  .middle1 {
+    background-image: url('contain1.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 1209px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-top: -120px;
+  }
+  .dalam {
+    background-image: url('dalam.png');
+    background-size: cover;
+    background-position: center;
+    width: 791px;
+    height: 223px;
+    display: grid;
+    place-items: center;
+    color: #C4D63F;
+    text-align: center;
+    position: relative; 
+    margin-top: -550px;
+  }
+  
+  .contain_tulisan3 {
+    color: black;
+    font-size: 80.56px;
+    font-family: Instrument Serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-top: -25px; /* Menambah margin-top untuk menaikkan teks */
+  }
+  
+  .contain_tulisan4 {
+    color: black;
+    font-size: 161.11px;
+    font-family: 'Sloop Script', serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-top: -25px; /* Menambah margin-top untuk menaikkan teks */
+  }
+ /* HalamanLagu.css */
+ .playlist-wrapper1 {
+  display: flex;
+  justify-content: center; /* Agar tabel berdampingan */
+  gap: 40px;
+  padding: 20px 0;
+}
+
+.playlist-container1 {
+  width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.playlist-title1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  font-family: 'Sloop', serif;
+  color: #000;
+}
+
+.song-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.song-item {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0; /* Reduced padding to bring items closer */
+  border-bottom: 1px solid #ddd;
+}
+
+.song-rank {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #666;
+  width: 30px;
+  text-align: center;
+}
+.song-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 1rem; /* Adds space between the image and text */
+}
+
+.song-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Aligns text to the left */
+  gap: 2px; /* Adds space between the title and artist */
+}
+
+.song-title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0; /* Removes extra margin */
+}
+
+.song-artist {
+  font-size: 0.85rem;
+  color: #888;
+  margin: 0; /* Removes extra margin */
+}
+.play-button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color: #888;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  justify-content: center; /* Menjaga konten di tengah button */
+  align-items: center; /* Menjaga logo tetap rata tengah secara vertikal */
+  width: 30px; /* Sesuaikan ukuran button */
+  height: 30px;
+  border-radius: 50%; /* Membuat button menjadi lingkaran */
+  background-color: #f0f0f0; /* Menambahkan warna latar belakang */
+  margin-left: auto; /* Membuat tombol berada di sisi kanan */
+}
+.play-button:hover {
+  color: #333;
+}
+.see-more-btn1 {
+  display: inline-flex;
+  align-items: center;
+  padding: 15px 60px;
+  font-size: 25px;
+  font-family: 'Instrument Serif', serif;
+  color:#333;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 100px;
+  margin-top: 80px; /* Memberi jarak antara tombol dengan elemen sebelumnya */
+  display: block; /* Agar tombol muncul di bawah container */
+  text-align: center;
+  box-shadow: 9px 10px 10px;
+  background: white;
+}
+
+.see-more-btn1 .arrow {
+  margin-right: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Hover effect untuk tombol */
+.see-more-btn1:hover {
+  color: #333;
+}
+.middle2 {
+  background-image: url('contain2.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 1038px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  margin-top: -120px;
+}
+.contain_tulisan5 {
+  color: #F4FFA3;
+  font-size: 80.56px;
+  font-family: 'Instrument Serif', serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-top: 175px;
+}
+
+.contain_tulisan6 {
+  color: #F4FFA3;
+  font-size: 161.11px;
+  font-family: 'Sloop Script', serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-top: 175px;
+}
+.gambar1 {
+  background-image: url('gambar1.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  display: grid;
+  margin-bottom: 0px;
+  margin-left: -400px;
+  position: relative;
+}
+.gambar2 {
+  background-image: url('gambar2.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  display: grid;
+  margin-top:-300px;
+  margin-left: -300px;
+  position: relative;
+
+  }
+  .content-description {
+    color: white;
+    font-size: 30px; /* Kurangi ukuran agar lebih proporsional */
+    font-family: 'Instrument Serif', serif;
+    font-weight: 400;
+    text-align: left;
+    max-width: 550px; /* Batasi lebar agar teks rapi */
+    margin-top: -750px;
+    margin-right: -450px;
+}
+.upload-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -400px;
+  margin-right: -70px;
+
+}
+
+.upload-button {
+  padding: 12px 50px;
+  background: white;
+  box-shadow: 9px 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  backdrop-filter: blur(4px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: -30px;
+  font-size: 20px;
+  color: black;
+  font-family: 'Instrument Serif', serif;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.upload-button:hover {
+  background: #f0f0f0;
+  transform: scale(1.05);
+}
+
+.upload-button:active {
+  transform: scale(0.95);
+}
+.upload-button .arrow {
+  margin-right: 10px; /* Menambah jarak antara panah dan tulisan */
+}
+.middle3 {
+  background-image: url('middle3.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 1209px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  margin-top: -120px;
+}
+.dalam1{
+  background-image: url('dalam.png');
+  background-size: cover;
+  background-position: center;
+  width: 791px;
+  height: 223px;
+  display: grid;
+  place-items: center;
+  color: #C4D63F;
+  text-align: center;
+  margin-top: -550px;
+
+}
+.contain_tulisan7 {
+  color: black;
+  font-size: 80.56px;
+  font-family: Instrument Serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-top: -25px; /* Menambah margin-top untuk menaikkan teks */
+}
+
+.contain_tulisan8 {
+  color: black;
+  font-size: 161.11px;
+  font-family: 'Sloop Script', serif;
+  font-weight: 400;
+  word-wrap: break-word;
+  margin-top: -25px; /* Menambah margin-top untuk menaikkan teks */
+}
+.gambar3 {
+  background-image: url('gambar1.png');
+  background-size: contain; /* Mengatur agar gambar tidak dipotong */
+  background-position: center;
+  background-repeat: no-repeat; /* Agar gambar tidak diulang */
+  width: 100%;
+  height: 400px;
+  display: block;
+  margin-bottom: -300px;
+  margin-left: 550px;
+  position: relative;
+}
+
+.gambar4 {
+  background-image: url('gambar2.png');
+  background-size: contain; /* Agar gambar tidak dipotong */
+  background-position: center;
+  background-repeat: no-repeat; /* Agar gambar tidak diulang */
+  width: 100%; /* Agar elemen melebar sesuai container */
+  height: 400px;
+  display: grid; /* Pastikan elemen berada dalam aliran layout */
+  margin-bottom: 0px;
+  margin-left:690px;
+  position: relative; /* Tidak mutlak */
+}
+.content-description1 {
+  color: black;
+  font-size: 30px;
+  font-family: 'Instrument Serif', serif;
+  font-weight: 400;
+  max-width: 447px;
+  word-wrap: break-word;
+  margin-top: -550px;
+  margin-left: -300px;
+  margin-bottom: 20px; /* Memberikan jarak dengan elemen di bawahnya */
+  text-align: left; /* Menjamin teks di dalam elemen rata kiri */
+}
+
+.content-description2 {
+  color: black;
+  font-size: 20px;
+  font-family: 'Instrument Serif', serif;
+  font-weight: 400;
+  max-width: 500px;
+  word-wrap: break-word;
+  margin-left: -250px;
+  margin-top: -300px; /* Alternatif untuk menambahkan jarak dari atas */
+  text-align: left;/* Menjamin teks di dalam elemen rata kiri */
+}
+
+.see-more-btn2 {
+  position: relative; /* Menjaga ukuran tetap dan hanya memindahkan tombol */
+  padding: 15px 60px; /* Ukuran tombol tetap konsisten */
+  font-size: 25px;
+  font-family: 'Instrument Serif', serif;
+  color: #333;
+  text-decoration: none;
+  border: 5px solid white; /* Border tetap proporsional */
+  border-radius: 50px;
+  margin-top: -100px;
+  left: -250px; /* Menggunakan 'left' untuk memindahkan tombol ke kiri */
+  text-align: center;
+  box-shadow: 9px 10px 10px;
+  background: white;
+}
+
+
+.see-more-btn2 .arrow {
+  margin-right: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.see-more-btn2:hover {
+  color: #333;
+}
+
+
+
+/* Responsif untuk tablet */
+@media (max-width: 768px) {
+  .gambar_navbar {
+    height: 600px;
+  }
+
+  .gambar_contain {
+    font-size: 60px;
+  }
+
+  .spesial_font {
+    font-size: 100px;
+  }
+
+  .gambar_contain1 {
+    font-size: 20px;
+  }
+
+  .input-wrapper {
+    width: 90%;
+  }
+}
+
+
+/* Responsif untuk ponsel */
+@media (max-width: 480px) {
+  .gambar_navbar {
+    height: 500px;
+  }
+
+  .gambar_contain {
+    font-size: 40px;
+  }
+  
+  .spesial_font {
+    font-size: 70px;
+  }
+
+  .gambar_contain1 {
+    font-size: 18px;
+  }
+
+  .input-wrapper {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .search-input {
+    font-size: 14px;
+    height: 45px;
+  }
+}

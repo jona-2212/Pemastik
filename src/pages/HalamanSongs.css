@@ -1,0 +1,346 @@
+.container5 {
+    background-image: url('isi.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    height: 2890px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Instrument Serif', serif;
+    color: white;
+    padding: 20px;
+}
+
+/* Header Section Styling */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Untuk memastikan teks di tengah */
+    margin: 0 auto; /* Jika dibutuhkan untuk sentralisasi container */
+}
+
+.header .highlight {
+    color: #F4FFA3;
+    font-size: 160px;
+    font-family: 'Sloop', serif;
+    align-items: center;
+    text-align: center;
+    margin: 0; /* Menghilangkan margin default */
+}
+
+.header .title {
+    color: #F4FFA3;
+    font-size: 80px;
+    font-family: 'Instrument Serif', serif;
+    align-items: center;
+    text-align: center;
+    margin: 0; /* Menghilangkan margin default */
+}
+
+
+.header p {
+    font-size: 24px;
+    max-width: 90%;
+    margin: 10px auto;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.playlist-wrapper {
+    display: flex;
+    justify-content: center; /* Agar tabel berdampingan */
+    gap: 40px;
+    padding: 20px 0;
+}
+
+.playlist-container {
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.playlist-title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    font-family: 'Sloop', serif;
+    color: #000;
+}
+
+.song-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.song-rank {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #666;
+    width: 30px;
+    text-align: center;
+}
+
+.song-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.song-info {
+    flex: 1;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.song-title, .song-artist {
+    margin: 0;
+}
+/* Efek hover pada container playlist */
+.playlist-container:hover {
+    background-color: #f5f5f5; /* Mengubah warna latar belakang saat hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Menambahkan bayangan saat hover */
+    cursor: pointer; /* Mengubah kursor untuk menunjukkan interaksi */
+}
+.play-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.play-button:hover {
+    background-color: #ccc;
+}
+/* General container styling */
+.container {
+    background-color: #222;
+    min-height: 100vh;
+    width: 100%;
+    padding: 20px;
+    font-family: 'Instrument Serif', serif;
+    color: white;
+}
+
+/* Header Styling */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header .highlight {
+    font-size: 30px;
+    color: #F4FFA3;
+}
+
+.header .title {
+    font-size: 30px;
+    color: #F4FFA3;
+}
+
+.description {
+    font-size: 30px;
+    max-width: 900px;
+    margin: 10px auto;
+    text-align: center;
+
+}
+
+.playlist-wrapper {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.playlist-container {
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: black;
+}
+
+.playlist-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.song-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.song-rank {
+    width: 40px;
+    text-align: center;
+}
+
+.song-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.song-info {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.play-button {
+    width: 30px;
+    height: 30px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.social-trending {
+    padding: 20px;
+    font-family: 'Instrument Serif', serif;
+    color: black;
+    text-align: center;
+  }
+  
+/* Styling untuk Instagram bagian atas */
+/* Styling untuk Instagram bagian atas */
+/* Styling untuk Instagram bagian atas */
+.ig {
+    display: flex;
+    flex-direction: row; /* Tetap horizontal */
+    align-items: center;
+    margin-bottom: 10px; /* Mengurangi jarak ke bawah agar lebih dekat dengan topic */
+    justify-content: flex-start; /* Tetap rata kiri */
+    gap: 15px; /* Jarak antara logo dan teks */
+    padding-left: 210px; /* Geser semua elemen ke kanan */
+}
+
+.ig img {
+    width: 50px; /* Ukuran logo Instagram */
+    height: 50px;
+    background: none;
+
+}
+
+.ig h2 {
+    font-size: 30px; /* Ukuran huruf 'I' */
+    font-weight: bold;
+    margin: 0; /* Menghapus margin tambahan */
+    text-align: left; /* Memastikan teks tetap rata kiri */
+}
+
+.ig span {
+    font-size: 20px; /* Ukuran huruf 'NSTAGRAM' */
+}
+
+/* Section title */
+.section-title {
+    color: white;
+    font-size: 30px;
+    font-family: Instrument Serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: left; /* Membuat teks rata kiri */
+    margin-left: 200px; /* Geser judul ke kanan */
+    line-height: 1.5; /* Memberikan jarak antar baris */
+    max-width: 1000px; /* Atur lebar maksimal untuk memaksa teks jadi dua baris */
+    margin-top: 10px; /* Kurangi jarak ke atas jika terlalu jauh dari elemen lain */
+}
+
+/* Deskripsi Instagram */
+.section-description {
+    font-size: 18px;
+    margin: 10px 0 30px;
+    line-height: 1.5;
+    color: white;
+    text-align: left; /* Tetap rata kiri */
+    margin-left: 50px; /* Geser deskripsi ke kanan */
+}
+
+  /* Post Container untuk gambar-gambar lagu */
+/* Post Cards */
+.post-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.post-card {
+    position: relative;
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.post-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.post-username,
+.post-views {
+    position: absolute;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.post-username {
+    bottom: 40px;
+}
+
+.post-views {
+    bottom: 10px;
+}
+/* Header Instagram */
+.ig-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Mengatur agar tulisan rata kiri */
+    gap: 10px;
+    font-family: 'Instrument Serif', serif;
+    margin-bottom: 20px;
+}
+
+.ig-header h1 {
+    font-size: 28px;
+    color: white;
+    font-weight: 400;
+    text-align: left; /* Pastikan tulisan rata kiri */
+}
+
+/* Efek hover pada teks kartu */
+.post-card p {
+    transition: color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.post-card p:hover {
+    color: #FFD700; /* Warna emas saat di-hover */
+    transform: scale(1.1); /* Efek memperbesar teks */
+}

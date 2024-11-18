@@ -1,0 +1,173 @@
+/* Container untuk semua trending */
+.social-trending {
+  padding: 2rem;
+  text-align: center;
+}
+
+.profile-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Dua kolom */
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.profile-card {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-10px);
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.profile-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.profile-username {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.profile-followers {
+  font-size: 0.9rem;
+  color: #777;
+  margin: 0.5rem 0;
+}
+
+.profile-description {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.header .highlight2 {
+  color: #F4FFA3;
+  font-size: 160px;
+  font-family: 'Sloop', serif;
+}
+
+.header .title2 {
+  color: #F4FFA3;
+  font-size: 80px;
+  font-family: 'Instrument Serif', serif;
+}
+
+.header .description {
+  font-size: 30px;
+  color: white;
+}
+
+.container9 {
+        background-image: url('isi.png'); /* Ganti dengan path gambar Anda */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 1700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        font-family: 'Instrument Serif', serif;
+        color: white;
+        padding: 20px;
+    }
+
+
+.contain_tulisan9 {
+  color:#F4FFA3;
+  font-size: 80px;
+  font-family: Instrument Serif;
+}
+
+.contain_tulisan10 {
+  color: #F4FFA3;
+  font-size: 161px;
+  font-family: 'Sloop Script', serif;
+}
+
+.gambar7 {
+  background-image: url('gambar1.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 100px;
+  margin-left: -700px;
+}
+
+.gambar8{
+  background-image: url('gambar2.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  margin-top: -400px;
+  margin-left: -600px;
+}
+
+.content-description3{
+    color: white;
+    font-size: 30px;
+    font-family: 'Instrument Serif', serif;
+    font-weight: 400;
+    max-width: 447px;
+    word-wrap: break-word;
+    margin-top: -400px;
+    margin-left: 400px;
+    margin-bottom: 20px; /* Memberikan jarak dengan elemen di bawahnya */
+    text-align: left; /* Menjamin teks di dalam elemen rata kiri */
+  }
+.content-description4 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Instrument Serif', serif;
+    font-weight: 400;
+    max-width: 500px;
+    word-wrap: break-word;
+    margin-left: 450px;
+    margin-top: 20px; /* Alternatif untuk menambahkan jarak dari atas */
+    text-align: left;/* Menjamin teks di dalam elemen rata kiri */
+}
+
+.upload-section1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 100px;
+  color: black;
+}
+
+.upload-button1 {
+  padding: 12px 50px;
+  background: white;
+  border-radius: 50px;
+  font-size: 20px;
+  font-family: 'Instrument Serif', serif;
+  cursor: pointer;
+}
+
+.upload-button1:hover {
+  background: #f0f0f0;
+}
